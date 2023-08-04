@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-work LSN-6</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Регистрация пользователя</h1>
+            <form action="">
+                <div class="block-1">
+                    <h4>Ваше имя:</h4>
+                    <input class="inp" type="text" placeholder="Ваше имя">
+                </div>
+                <div class="block-1">
+                    <h4>Пароль:</h4>
+                    <input class="inp" type="text" placeholder="Пароль">
+                </div>
+                <div class="block-1">
+                    <h4>Возраст:</h4>
+                    <input class="inp" type="number" max="45" min="1">
+                </div>
+                <div class="block-1 block-2">
+                    <h4 class="text-1">Пол:</h4>
+                    <label for="elem-1">Мужской</label>
+                    <input id="elem-1" type="radio" name="gender" value="">
+                    
+                    <label for="elem-2">Женский</label>
+                    <input id="elem-2" type="radio" name="gender" value="">
+                </div>
+                <div class="block-1 block-3">
+                    <h4 class="text-2">Ваши увлечения:</h4>
+                    <label for="elem-3">Музыка</label>
+                    <input id="elem-3" type="checkbox">
+                    
+                    <label for="elem-4">Видео</label>
+                    <input id="elem-4" type="checkbox">
+
+                    <label for="elem-5">Рисование</label>
+                    <input id="elem-5" type="checkbox">
+                </div>
+                <div class="block-1">
+                    <h4>Ваша страна:</h4>
+                        <label for="city"></label>
+                            <select name="" id="city" class="inp" >
+                                <option></option>
+                                <option>Индия</option>
+                                <option>Япония</option>
+                                <option>Китай</option>
+                                <option>Кыргызстан</option>
+                            </select>
+                </div>
+                <div class="block-1">
+                    <h4>Ваш город:</h4>
+                        <label for="city"></label>
+                            <select name="" id="city" class="inp" >
+                                <option></option>
+                                <option>Моссква</option>
+                                <option>Бишкек</option>
+                                <option>Париж</option>
+                                <option>Рио-де-Жанейро</option>
+                            </select>
+                </div>
+                <div class="block-6">
+                    <h4 >Коротко о себе:</h4>
+                    <textarea class="font" cols="47" rows="7" placeholder="Коротко о себе..."></textarea>
+                </div>
+                <div class="block-7">
+                    <button class="btn-1" type="submit">Отменить</button>
+                    <button class="btn-2" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
